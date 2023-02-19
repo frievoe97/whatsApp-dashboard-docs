@@ -28,6 +28,10 @@ module.exports = {
                   text: 'Documentation',
                   link: '/docs/',
                 },
+                {
+                  text: 'Installation',
+                  link: '/installation/',
+                },
               ],
               sidebar: {
                 '/docs/': [
@@ -41,6 +45,12 @@ module.exports = {
                     'future'],
                   },
                 ],
+                '/installation/': [
+                  {
+                    text: 'Installation',
+                    collapsible: false,
+                  },
+                ],
               },
           },
           '/en/': {
@@ -49,6 +59,10 @@ module.exports = {
                 {
                   text: 'Documentation',
                   link: '/en/docs/',
+                },
+                {
+                  text: 'Installation',
+                  link: '/en/installation/',
                 },
 
               ],
@@ -62,6 +76,12 @@ module.exports = {
                     'components',
                     'tests',
                     'future'],
+                  },
+                ],
+                '/en/installation/': [
+                  {
+                    text: 'Installation',
+                    collapsible: false,
                   },
                 ],
               },
