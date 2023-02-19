@@ -1,6 +1,7 @@
 import { defaultTheme } from 'vuepress'
 import { hopeTheme } from "vuepress-theme-hope";
 import { commentPlugin } from "vuepress-plugin-comment2";
+import { searchPlugin } from "@vuepress/plugin-search";
 
 module.exports = {
     locales: {
@@ -19,8 +20,11 @@ module.exports = {
 
         title: 'Test',
         darkmode: 'toggle',
+        backToTop: false,
+        fullscreen: true,
+        print: false,
 
-        // Sets password for directories
+        //Sets password for directories
         // encrypt: {
         //   config: {
         //     // This will encrypt the entire guide directory, and both passwords are available
@@ -33,6 +37,11 @@ module.exports = {
         plugins: {
           mdEnhance: {
             presentation: true,
+            tabs: true,
+            tasklist: true,
+            echarts: true,
+            flowchart: true,
+            align: true,
           },
         },
 
@@ -116,10 +125,13 @@ module.exports = {
       plugins: [
         commentPlugin({
           provider: "Giscus",
-          repo: "frievoe97/vuepress2",
+          repo: "frievoe97/find-mr-x-docs",
           repoId: "R_kgDOI_nxNA",
           category:"General",
           categoryId:"DIC_kwDOI_nxNM4CUTuL"
+        }),
+        searchPlugin({
+          // your options
         }),
       ],
 }
