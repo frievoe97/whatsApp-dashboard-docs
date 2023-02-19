@@ -5,12 +5,12 @@ import { searchPlugin } from "@vuepress/plugin-search";
 
 module.exports = {
     locales: {
-        '/': {
+        '/documentation/': {
           lang: 'de-DE',
           title: 'Find Mr. X',
       description: 'Vue-powered Static Site Generator'
         },
-        '/en/': {
+        '/documentation/en/': {
           lang: 'en-US',
           title: 'Find Mr. X',
       description: 'Vue-powered Static Site Generator'
@@ -47,7 +47,7 @@ module.exports = {
 
 
         locales: {
-          '/': {
+          '/documentation/': {
             selectLanguageName: 'German',
             navbar: [
                 {
@@ -64,7 +64,7 @@ module.exports = {
                 },
               ],
               sidebar: {
-                '/docs/': [
+                '/documentation/docs/': [
                   {
                     text: 'Documentation',
                     collapsible: false,
@@ -75,7 +75,7 @@ module.exports = {
                     'future'],
                   },
                 ],
-                '/installation/': [
+                '/documentation/installation/': [
                   {
                     text: 'Installation',
                     collapsible: false,
@@ -83,25 +83,25 @@ module.exports = {
                 ],
               },
           },
-          '/en/': {
+          '/documentation/en/': {
             selectLanguageName: 'English',
             navbar: [
                 {
                   text: 'Documentation',
-                  link: '/en/docs/',
+                  link: '/documentation/en/docs/',
                 },
                 {
                   text: 'Installation',
-                  link: '/en/installation/',
+                  link: '/documentation/en/installation/',
                 },
                 {
                   text: 'Presentation',
-                  link: '/en/presentation/',
+                  link: '/documentation/en/presentation/',
                 },
 
               ],
               sidebar: {
-                '/en/docs/': [
+                '/documentation/en/docs/': [
                   {
                     text: 'Documentation',
                     collapsible: false,
@@ -112,7 +112,7 @@ module.exports = {
                     'future'],
                   },
                 ],
-                '/en/installation/': [
+                '/documentation/en/installation/': [
                   {
                     text: 'Installation',
                     collapsible: false,
