@@ -17,3 +17,6 @@ haben die Sucher\*innen gewonnen und die zu suchende Person verloren.
 Damit verifiziert werden kann, ob die gesuchte Person wirklich gefunden
 wurde, wird versucht eine Bluetooth-Verbindung zwischen den Geräten
 herzustellen.
+
+---
+<CommentService />

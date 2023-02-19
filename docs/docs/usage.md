@@ -58,3 +58,6 @@ Chat
 Für die Kommunikation unter den Suchenden, gibt es die Möglichkeit zu
 chatten. Die ausgetauschten Nachrichten können nicht von Mr. X gelesen
 werden und können zur Absprache der Strategie verwendet werden.
+
+---
+<CommentService />

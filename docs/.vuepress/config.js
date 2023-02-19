@@ -1,4 +1,7 @@
 import { defaultTheme } from 'vuepress'
+import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
+import { searchPlugin } from '@vuepress/plugin-search'
+import { commentPlugin } from "vuepress-plugin-comment2";
 
 module.exports = {
     locales: {
@@ -20,6 +23,7 @@ module.exports = {
         locales: {
           '/': {
             selectLanguageName: 'German',
+            logo: 'https://cloud.friedrichvoelkers.de/public/projects/find-mr-x/img09.png',
             navbar: [
                 {
                   text: 'Documentation',
@@ -42,6 +46,7 @@ module.exports = {
           },
           '/en/': {
             selectLanguageName: 'English',
+            logo: 'https://cloud.friedrichvoelkers.de/public/projects/find-mr-x/img09.png',
             navbar: [
                 {
                   text: 'Documentation',
@@ -65,4 +70,25 @@ module.exports = {
           },
         },
       }),
+      plugins: [
+        backToTopPlugin(),
+        commentPlugin({
+          provider: "Giscus",
+          repo: "frievoe97/vuepress2",
+          repoId:"R_kgDOI_nxNA",
+          category:"General",
+          categoryId:"DIC_kwDOI_nxNM4CUTuL",
+          inputPosition: "bottom"
+        }),
+        searchPlugin({
+          locales: {
+            '/': {
+              placeholder: 'Suche',
+            },
+            '/en/': {
+              placeholder: 'Search',
+            },
+          },
+        }),
+      ],
 }

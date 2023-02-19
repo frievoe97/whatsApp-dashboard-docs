@@ -11,3 +11,6 @@ Zukunft noch umgesetzt werden sollen.
     werden.
 
 -   Verschiedene Spiel-Modi einführen.
+
+---
+<CommentService />

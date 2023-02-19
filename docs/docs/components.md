@@ -126,3 +126,5 @@ zwischen der Firebase-Datenbank und dem Model bzw. dem
   `loadMessages()`{.java}          Überprüft, ob ein Spieler eine Nachricht an die Datenbank gesendet hat. Wenn eine neue Nachricht ankommt, wird diese lokal hinzugefügt und kann in der Activity `ChatScreen.java`{.java} angezeigt werden.
   `updateMyLocation()`{.java}      Sendet die aktuelle Location an die Datenbank.
 
+---
+<CommentService />

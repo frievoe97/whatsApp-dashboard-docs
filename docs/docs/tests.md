@@ -53,3 +53,6 @@ Test die Methode `setData()`{.java}, welche mit der
 `@Before`{.java}-Annotation versehen ist, aufgerufen. Diese Methode
 sorgt dafür, dass alle nötigen Daten gespeichert sind, die benötigt
 werden, um diese Activity aufzurufen.
+
+---
+<CommentService />
