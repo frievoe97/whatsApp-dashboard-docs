@@ -20,6 +20,23 @@ module.exports = {
         title: 'Test',
         darkmode: 'toggle',
 
+        // Sets password for directories
+        // encrypt: {
+        //   config: {
+        //     // This will encrypt the entire guide directory, and both passwords are available
+        //     "/docs/": ["1234", "5678"],
+        //     // This will only encrypt config/page.html
+        //     "/config/page.html": "1234",
+        //   },
+        // },
+
+        plugins: {
+          mdEnhance: {
+            presentation: true,
+          },
+        },
+
+
         locales: {
           '/': {
             selectLanguageName: 'German',
@@ -31,6 +48,10 @@ module.exports = {
                 {
                   text: 'Installation',
                   link: '/installation/',
+                },
+                {
+                  text: 'Presentation',
+                  link: '/presentation/',
                 },
               ],
               sidebar: {
@@ -63,6 +84,10 @@ module.exports = {
                 {
                   text: 'Installation',
                   link: '/en/installation/',
+                },
+                {
+                  text: 'Presentation',
+                  link: '/en/presentation/',
                 },
 
               ],

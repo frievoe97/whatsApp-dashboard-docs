@@ -19,4 +19,5 @@ actions:
 #     details: Feature 2 Description
 #footer: Made by Friedrich Völkers
 footer: Made by <a href="https://friedrichvoelkers.de">Friedrich Völkers</a>
+copyright: ISC LICENSE
 ---
