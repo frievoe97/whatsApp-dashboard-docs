@@ -1,5 +1,6 @@
 import { defaultTheme } from 'vuepress'
 import { hopeTheme } from "vuepress-theme-hope";
+import { commentPlugin } from "vuepress-plugin-comment2";
 
 module.exports = {
     locales: {
@@ -29,7 +30,7 @@ module.exports = {
                 },
               ],
               sidebar: {
-                '/en/docs/': [
+                '/docs/': [
                   {
                     text: 'Documentation',
                     collapsible: false,
@@ -67,4 +68,13 @@ module.exports = {
           },
         },
       }),
+      plugins: [
+        commentPlugin({
+          provider: "Giscus",
+          repo: "frievoe97/vuepress2",
+          repoId: "R_kgDOI_nxNA",
+          category:"General",
+          categoryId:"DIC_kwDOI_nxNM4CUTuL"
+        }),
+      ],
 }
