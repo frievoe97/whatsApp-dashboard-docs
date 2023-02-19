@@ -4,13 +4,14 @@ import { commentPlugin } from "vuepress-plugin-comment2";
 import { searchPlugin } from "@vuepress/plugin-search";
 
 module.exports = {
+  base: "/documentation/",
     locales: {
-        '/documentation/': {
+        '/': {
           lang: 'de-DE',
           title: 'Find Mr. X',
       description: 'Vue-powered Static Site Generator'
         },
-        '/documentation/en/': {
+        '/en/': {
           lang: 'en-US',
           title: 'Find Mr. X',
       description: 'Vue-powered Static Site Generator'
@@ -47,7 +48,7 @@ module.exports = {
 
 
         locales: {
-          '/documentation/': {
+          '/': {
             selectLanguageName: 'German',
             navbar: [
                 {
@@ -64,7 +65,7 @@ module.exports = {
                 },
               ],
               sidebar: {
-                '/documentation/docs/': [
+                '/docs/': [
                   {
                     text: 'Documentation',
                     collapsible: false,
@@ -75,7 +76,7 @@ module.exports = {
                     'future'],
                   },
                 ],
-                '/documentation/installation/': [
+                '/installation/': [
                   {
                     text: 'Installation',
                     collapsible: false,
@@ -83,20 +84,20 @@ module.exports = {
                 ],
               },
           },
-          '/documentation/en/': {
+          '/en/': {
             selectLanguageName: 'English',
             navbar: [
                 {
                   text: 'Documentation',
-                  link: '/documentation/en/docs/',
+                  link: '/docs/',
                 },
                 {
                   text: 'Installation',
-                  link: '/documentation/en/installation/',
+                  link: '/installation/',
                 },
                 {
                   text: 'Presentation',
-                  link: '/documentation/en/presentation/',
+                  link: '/presentation/',
                 },
 
               ],
