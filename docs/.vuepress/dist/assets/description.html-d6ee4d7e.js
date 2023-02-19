@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-9915aa78","path":"/en/docs/description.html","title":"Beschreibung der App (eng)","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1676765433000,"contributors":[{"name":"Friedrich Kasper Voelkers","email":"friedrich.voelkers@me.com","commits":1}]},"filePathRelative":"en/docs/description.md"}');export{e as data};

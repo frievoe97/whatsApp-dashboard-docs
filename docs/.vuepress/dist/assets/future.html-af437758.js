@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5f4da02f","path":"/en/docs/future.html","title":"Aussicht (eng)","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1676765433000,"contributors":[{"name":"Friedrich Kasper Voelkers","email":"friedrich.voelkers@me.com","commits":1}]},"filePathRelative":"en/docs/future.md"}');export{e as data};

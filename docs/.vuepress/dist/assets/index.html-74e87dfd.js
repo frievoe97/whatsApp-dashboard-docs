@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-39540332","path":"/en/docs/","title":"Introduction","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1676765433000,"contributors":[{"name":"Friedrich Kasper Voelkers","email":"friedrich.voelkers@me.com","commits":1}]},"filePathRelative":"en/docs/README.md"}');export{e as data};
