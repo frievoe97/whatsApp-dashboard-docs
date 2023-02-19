@@ -27,7 +27,7 @@ module.exports = {
                 },
               ],
               sidebar: {
-                '/docs/': [
+                '/en/docs/': [
                   {
                     text: 'Documentation',
                     collapsible: false,
