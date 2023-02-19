@@ -1,7 +1,7 @@
 import { defaultTheme } from 'vuepress'
-import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 import { searchPlugin } from '@vuepress/plugin-search'
 import { commentPlugin } from "vuepress-plugin-comment2";
+import { hopeTheme } from "vuepress-theme-hope";
 
 module.exports = {
     locales: {
@@ -71,14 +71,15 @@ module.exports = {
         },
       }),
       plugins: [
-        backToTopPlugin(),
         commentPlugin({
           provider: "Giscus",
           repo: "frievoe97/vuepress2",
           repoId:"R_kgDOI_nxNA",
           category:"General",
           categoryId:"DIC_kwDOI_nxNM4CUTuL",
-          inputPosition: "bottom"
+          inputPosition: "bottom",
+          lightTheme: "light",
+          darkTheme: "dark"
         }),
         searchPlugin({
           locales: {

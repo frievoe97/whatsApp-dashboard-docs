@@ -13,5 +13,3 @@ features:
     actionLink: /feature-12/
 footer: Made by Friedrich Völkers
 ---
-
-<CommentService />
