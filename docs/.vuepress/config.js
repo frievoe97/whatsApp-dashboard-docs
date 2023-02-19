@@ -1,4 +1,5 @@
 import { defaultTheme } from 'vuepress'
+import { hopeTheme } from "vuepress-theme-hope";
 
 module.exports = {
     locales: {
@@ -13,9 +14,10 @@ module.exports = {
       description: 'Vue-powered Static Site Generator'
         },
       },
-      theme: defaultTheme({
+      theme: hopeTheme({
 
         title: 'Test',
+        darkmode: 'toggle',
 
         locales: {
           '/': {
