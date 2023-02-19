@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 18
       - run: npm install
-      - run: npm run build
+      - run: npm run docs:build
 
       - name: 📂 SFTP uploader                       
         uses: wangyucode/sftp-upload-action@v1.4.8 # Thank you @https://github.com/wangyucode/sftp-upload-action
